@@ -1,0 +1,46 @@
+---
+namespace: 'r_pufky'
+name: 'game'
+version: '13.0.0'
+readme: 'README.md'
+authors:
+  - 'Robert Pufky <rpufky@gmail.com> (https://github.com/r-pufky)'
+description: |
+  Host game servers.
+license_file: 'LICENSE'
+tags:
+  - 'steam'
+  - 'steamcmd'
+  - 'wine'
+  - 'winetricks'
+  - 'linux'
+  - 'windows'
+  - 'server'
+dependencies:
+  'r_pufky.lib': '>=13.0.0,<14.0.0'
+  'r_pufky.deb': '>=13.0.2,<14.0.0'
+  'community.general': '=10.6.0'
+
+repository: 'https://github.com/r-pufky/ansible_collection_game'
+documentation: 'https://github.com/r-pufky/ansible_colection_srv/docs/README.md'
+homepage: 'https://github.com/r-pufky/ansible_collection_game'
+issues: 'https://github.com/r-pufky/ansible_collection_game/issues'
+
+# A list of file glob-like patterns used to filter any files or directories
+# that should not be included in the build artifact. A pattern is matched from
+# the relative path of the file or directory of the collection directory. This
+# uses 'fnmatch' to match the files or directories. Some directories and files
+# like 'galaxy.yml', '*.pyc', '*.retry', and '.git' are always filtered.
+#
+# Mutually exclusive with 'manifest'.
+build_ignore:
+  - '*molecule/*'  # Do not include molecule testing in release.
+  - 'ansible.env'  # Development ansible environment.
+  - '.ansible'  # Ansible collection cache for role testing.
+  - '.vscode'  # VSCodium settings.
+  - 'TODO.md'  # Development staging todo messages.
+  - 'COMMIT.md'  # Development staging commit messages.
+  - 'plugins/**'  # TODO(collection): until plugins are actually added.
+  - 'roles/dnsrobocert'  # TODO(collection): remove when migration completed.
+  - 'roles/gpu'  # TODO(collection): remove when migration completed.
+  - 'roles/fika'  # TODO(collection): remove when migration completed.

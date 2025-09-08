@@ -1,0 +1,18 @@
+[submodule "docs"]
+	path = docs
+	url = https://github.com/r-pufky/ansible_collection_docs
+[submodule "roles/steam"]
+	path = roles/steam
+	url = https://github.com/r-pufky/ansible_steam
+[submodule "roles/conan_exiles"]
+	path = roles/conan_exiles
+	url = https://github.com/r-pufky/ansible_conan_exiles
+[submodule "roles/seven_days_to_die"]
+	path = roles/seven_days_to_die
+	url = https://github.com/r-pufky/ansible_seven_days_to_die
+[submodule "roles/satisfactory"]
+	path = roles/satisfactory
+	url = https://github.com/r-pufky/ansible_satisfactory
+[submodule "roles/left_4_dead_2"]
+	path = roles/left_4_dead_2
+	url = https://github.com/r-pufky/ansible_left_4_dead_2
