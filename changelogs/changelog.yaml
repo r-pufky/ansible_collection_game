@@ -1,6 +1,50 @@
 ---
 # https://github.com/ansible-community/antsibull-changelog/blob/main/docs/changelog.yaml-format.md
 releases:
+  13.0.2:
+    release_date: '2025-10-05'
+    codename: '2025-10-05'
+    changes:
+      release_summary: 'Update collection dependencies.'
+      major_changes:
+        - 'N/A'
+      minor_changes:
+        - 'roles/steam - Use explicit extra options list.'
+        - 'r_pufky.lib - 13.0.3.'
+        - 'r_pufky.deb - 13.0.4.'
+        - 'roles/Update ansible.env namespace.'
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'docs/ - Development docs no longer included in release package.'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
+    objects:
+      role:
+        - name: 'conan_exiles'
+          description: 'Conan Exiles Dedicated Server.'
+          namespace: null
+        - name: 'left_4_dead'
+          description: 'Left 4 Dead Dedicated Server.'
+          namespace: null
+        - name: 'Left 4 Dead 2'
+          description: 'Left 4 Dead 2 Dedicated Server.'
+          namespace: null
+        - name: 'satisfactory'
+          description: 'Satisfactory Dedicated Server.'
+          namespace: null
+        - name: 'seven_days_to_die'
+          description: '7 Days to Die Dedicated Server.'
+          namespace: null
+        - name: 'steam'
+          description: >
+            Setup and manage steamcmd, wine, and winetricks for hosting
+            dedicated servers.
+          namespace: null
   13.0.1:
     release_date: '2025-09-08'
     codename: '2025-09-08'
@@ -43,7 +87,6 @@ releases:
             Setup and manage steamcmd, wine, and winetricks for hosting
             dedicated servers.
           namespace: null
-
   13.0.0:
     release_date: '2025-09-08'
     codename: '2025-09-08'
