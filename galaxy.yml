@@ -1,7 +1,7 @@
 ---
 namespace: 'r_pufky'
 name: 'game'
-version: '13.0.5'
+version: '13.0.6'
 readme: 'README.md'
 authors:
   - 'Robert Pufky <rpufky@gmail.com> (https://github.com/r-pufky)'
@@ -18,7 +18,7 @@ tags:
   - 'server'
 dependencies:
   'r_pufky.lib': '>=13.0.6,<14.0.0'
-  'r_pufky.deb': '>=13.0.7,<14.0.0'
+  'r_pufky.deb': '>=13.0.9,<14.0.0'
   'community.general': '=11.4.0'
 
 repository: 'https://github.com/r-pufky/ansible_collection_game'
