@@ -5,8 +5,7 @@ version: '13.0.7'
 readme: 'README.md'
 authors:
   - 'Robert Pufky <rpufky@gmail.com> (https://github.com/r-pufky)'
-description: |
-  Host game servers.
+description: 'Host game servers.'
 license_file: 'LICENSE'
 tags:
   - 'steam'
