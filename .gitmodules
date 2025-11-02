@@ -1,6 +1,3 @@
-[submodule "docs"]
-	path = docs
-	url = https://github.com/r-pufky/ansible_collection_docs
 [submodule "roles/steam"]
 	path = roles/steam
 	url = https://github.com/r-pufky/ansible_steam
