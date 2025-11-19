@@ -1,6 +1,47 @@
 ---
 # https://github.com/ansible-community/antsibull-changelog/blob/main/docs/changelog.yaml-format.md
 releases:
+  13.0.8:
+    release_date: '2025-11-19'
+    codename: '2025-11-19'
+    changes:
+      release_summary: 'Migrate remaining role documentation.'
+      major_changes:
+        - 'N/A'
+      minor_changes:
+        - 'roles/* - Migrate remaining role documentation.'
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'N/A'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
+    objects:
+      role:
+        - name: 'conan_exiles'
+          description: 'Conan Exiles Dedicated Server.'
+          namespace: null
+        - name: 'left_4_dead'
+          description: 'Left 4 Dead Dedicated Server.'
+          namespace: null
+        - name: 'Left 4 Dead 2'
+          description: 'Left 4 Dead 2 Dedicated Server.'
+          namespace: null
+        - name: 'satisfactory'
+          description: 'Satisfactory Dedicated Server.'
+          namespace: null
+        - name: 'seven_days_to_die'
+          description: '7 Days to Die Dedicated Server.'
+          namespace: null
+        - name: 'steam'
+          description: >
+            Setup and manage steamcmd, wine, and winetricks for hosting
+            dedicated servers.
+          namespace: null
   13.0.7:
     release_date: '2025-11-01'
     codename: '2025-11-01'
