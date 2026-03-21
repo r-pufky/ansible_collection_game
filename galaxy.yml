@@ -1,7 +1,7 @@
 ---
 namespace: 'r_pufky'
 name: 'game'
-version: '13.0.8'
+version: '1.0.0'
 readme: 'README.md'
 authors:
   - 'Robert Pufky <rpufky@gmail.com> (https://github.com/r-pufky)'
@@ -16,19 +16,29 @@ tags:
   - 'windows'
   - 'server'
 dependencies:
-  'r_pufky.lib': '>=13.0.8,<14.0.0'
-  'r_pufky.deb': '>=13.0.10,<14.0.0'
-  'community.general': '=11.4.0'
+  'r_pufky.data': '>=3.2.0,<4.0.0'
+  'r_pufky.deb': '>=4.0.0,<5.0.0'
+  'community.general': '>=12.4.0,<13.0.0'
 
 repository: 'https://github.com/r-pufky/ansible_collection_game'
-documentation: 'https://r-pufky.github.io/ansible_collection_docs'
+documentation: 'https://r-pufky.github.io/ansible_docs'
 homepage: 'https://github.com/r-pufky/ansible_collection_game'
 issues: 'https://github.com/r-pufky/ansible_collection_game/issues'
 
+# Do not include: testing, environments, caches, IDE settings, or staging
+# messages in release tarball.
 build_ignore:
-  - '*molecule/*'  # Do not include molecule testing in release.
-  - 'ansible.env'  # Development ansible environment.
-  - '.ansible'  # Ansible collection cache for role testing.
-  - '.vscode'  # VSCodium settings.
-  - 'TODO.md'  # Development staging todo messages.
-  - 'COMMIT.md'  # Development staging commit messages.
+  - '*.ansible'
+  - '*.gitignore'
+  - '*.gitattributes'
+  - '*.gitmodules'
+  - '*.git'
+  - '*.venv'
+  - '*.envrc'
+  - '*.vscode'
+  - '*molecule'
+  - 'ansible.env'
+  - 'pyproject.toml'
+  - 'uv.lock'
+  - 'TODO.md'
+  - 'COMMIT.md'
