@@ -1,6 +1,55 @@
 ---
 ancestor: 0.0.9
 releases:
+  1.1.0:
+    release_date: '2026-04-09'
+    codename: '2026-04-09'
+    changes:
+      release_summary: 'Update dependencies, fix nested empty directories.'
+      major_changes:
+        - 'N/A'
+      minor_changes:
+        - 'r_pufky.data.v3 - 3.2.1 - Fix cache_git string truncation.'
+        - 'r_pufky.deb - 4.0.1 - r_pufky.data.v3 update.'
+        - 'community.general - 12.5.0.'
+        - 'roles/conan_exiles - 2.1.0 - Fix nested empty directories.'
+        - 'roles/left_4_dead - 2.0.1 - Use standard linux dir/file nomenclature for vars.'
+        - 'roles/left_4_dead_2 - 2.0.2 - Use standard linux dir/file nomenclature for vars.'
+        - 'roles/satisfactory - 2.1.0 - Fix nested empty directories.'
+        - 'roles/seven_days_to_die - 2.1.0 - Use standard linux dir/file nomenclature for vars.'
+        - 'roles/steam - 1.1.1 - Always install base steam packages, use correct location for base role var.'
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'N/A'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
+    objects:
+      role:
+        - name: 'conan_exiles'
+          description: 'Conan Exiles Dedicated Server.'
+          namespace: null
+        - name: 'left_4_dead'
+          description: 'Left 4 Dead Dedicated Server.'
+          namespace: null
+        - name: 'Left 4 Dead 2'
+          description: 'Left 4 Dead 2 Dedicated Server.'
+          namespace: null
+        - name: 'satisfactory'
+          description: 'Satisfactory Dedicated Server.'
+          namespace: null
+        - name: 'seven_days_to_die'
+          description: '7 Days to Die Dedicated Server.'
+          namespace: null
+        - name: 'steam'
+          description: >
+            Setup and manage steamcmd, wine, and winetricks for hosting
+            dedicated servers.
+          namespace: null
   1.0.0:
     release_date: '2026-03-20'
     codename: '2026-03-20'
