@@ -7,7 +7,11 @@ releases:
     changes:
       release_summary: 'Add Star Rupture.'
       major_changes:
-        - 'roles/star_rupture - Added.'
+        - 'roles/star_rupture - 1.0.0 - Added.'
+        - 'roles/steam - 1.2.0 - Add container support, update metamod/sourcemod URLs.'
+        - 'roles/left_4_dead - 2.1.0 - Add container support, update metamod/sourcemod URLs.'
+        - 'roles/left_4_dead_2 - 2.1.0 - Add container support, update metamod/sourcemod URLs.'
+        - 'roles/* - Add container support.'
       minor_changes:
         - 'N/A'
       breaking_changes:
