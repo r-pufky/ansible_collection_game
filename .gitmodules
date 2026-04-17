@@ -13,3 +13,6 @@
 [submodule "roles/left_4_dead_2"]
 	path = roles/left_4_dead_2
 	url = https://github.com/r-pufky/ansible_left_4_dead_2
+[submodule "roles/star_rupture"]
+	path = roles/star_rupture
+	url = https://github.com/r-pufky/ansible_star_rupture
