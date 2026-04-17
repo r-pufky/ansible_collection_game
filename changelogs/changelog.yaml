@@ -1,6 +1,51 @@
 ---
 ancestor: 0.0.9
 releases:
+  1.1.3:
+    release_date: '2026-04-17'
+    codename: '2026-04-17'
+    changes:
+      release_summary: 'Resolve winetricks edge cases.'
+      major_changes:
+        - 'roles/steam - 1.2.1 - Update winetricks during install, set environment.'
+        - 'roles/star_rupture - 1.1.0 - Add auto save loading, dynamic new game notification.'
+      minor_changes:
+        - 'N/A'
+      breaking_changes:
+        - 'N/A'
+      deprecated_features:
+        - 'N/A'
+      removed_features:
+        - 'N/A'
+      security_fixes:
+        - 'N/A'
+      bugfixes:
+        - 'N/A'
+    objects:
+      role:
+        - name: 'conan_exiles'
+          description: 'Conan Exiles Dedicated Server.'
+          namespace: null
+        - name: 'left_4_dead'
+          description: 'Left 4 Dead Dedicated Server.'
+          namespace: null
+        - name: 'Left 4 Dead 2'
+          description: 'Left 4 Dead 2 Dedicated Server.'
+          namespace: null
+        - name: 'satisfactory'
+          description: 'Satisfactory Dedicated Server.'
+          namespace: null
+        - name: 'star_rupture'
+          description: 'Star Rupture Dedicated Server.'
+          namespace: null
+        - name: 'seven_days_to_die'
+          description: '7 Days to Die Dedicated Server.'
+          namespace: null
+        - name: 'steam'
+          description: >
+            Setup and manage steamcmd, wine, and winetricks for hosting
+            dedicated servers.
+          namespace: null
   1.1.2:
     release_date: '2026-04-16'
     codename: '2026-04-16'
